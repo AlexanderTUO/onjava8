@@ -1,4 +1,4 @@
-package com.java8.demo.proxy;
+package com.java8.demo.proxy.normal;
 
 import com.java8.demo.proxy.bean.Logger;
 import com.java8.demo.proxy.bean.Privilege;
@@ -18,7 +18,7 @@ public class SalaryTest {
         Security security = new Security();
         Privilege privilege = new Privilege();
         privilege.setAccesss("admin");
-        SalaryManager manager = new SalaryManager(logger,privilege, security);
+        SalaryManager manager = new SalaryManager(logger,security,privilege );
         manager.showSalary();
     }
 

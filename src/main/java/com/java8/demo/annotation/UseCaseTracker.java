@@ -21,9 +21,7 @@ public class UseCaseTracker {
                 useCases.remove(Integer.valueOf(uc.id()));
             }
         }
-
         useCases.forEach(i -> System.out.println("剩下的用例为" + i));
-
     }
 
     public static void main(String[] args){

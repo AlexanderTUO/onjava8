@@ -7,6 +7,6 @@ package com.java8.demo.proxy.bean;
  */
 public class Logger {
     public void logging() {
-        System.out.println("登录");
+        System.out.println("logging");
     }
 }
